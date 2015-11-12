@@ -1,7 +1,4 @@
 /*
- * Autor : Silvia Sassa
- * ********************
- * tiene que dibujar con la esquina superior izquierda tiene que estar en el centro de la pantalla
  * 
  */
 import acm.graphics.*;
@@ -14,13 +11,10 @@ public class Repaso2 extends acm.program.GraphicsProgram{
 	
 	GRect rectangulo;
 	
-	
 	 //declaro otra variable de instancia que guardará el punto X de la
 	//pantalla en que empezará a pintarse el rectángulo
-	int anchoRectangulo = 120;
-	int altoRectangulo = 80;
+	
 	int distanciaX;
-	int distanciaY;
 	
 	public void init(){
 		
@@ -30,7 +24,7 @@ public class Repaso2 extends acm.program.GraphicsProgram{
 		
 		// creo un rectángulo de 120 de ancho po 80 de alto
 		  
-		rectangulo= new GRect(anchoRectangulo,altoRectangulo);
+		rectangulo= new GRect(120,80);
 		add(rectangulo);
 		
 	}
@@ -38,11 +32,7 @@ public class Repaso2 extends acm.program.GraphicsProgram{
 		// divido el ancho de la pantalla en 2 para saber donde está la mitad
 		// exacta de la pantalla
 		distanciaX= getWidth()/2;
-		// divido el alto de la pantalla en 2 para saber donde está la mitad
-		// exacta de la pantalla
-		distanciaY= getHeight()/2;
-		
-		rectangulo.setLocation(distanciaX-anchoRectangulo/2,distanciaY-altoRectangulo/2);
+		rectangulo.setLocation(distanciaX-80/2,0);
 	}
 	
 	
