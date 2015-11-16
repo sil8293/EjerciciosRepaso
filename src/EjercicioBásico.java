@@ -1,7 +1,7 @@
 /*
  * Es el ejercicio de las ardillas fiesteras
  * parámetro el numero de bellotas entre 40 y 60
- * fin de semana no hay limite
+ * fin de semana no hay limitefff
  */
 
 
@@ -10,6 +10,7 @@ public class EjercicioBásico extends acm.program.ConsoleProgram{
 	public void run(){
 		println(fiestaArdillas(30,false));
 		println(fiestaArdillas(50,true));
+		println(fiestaArdillas(70,true));
 		println(fiestaArdillas(70,true));
 	}
 
