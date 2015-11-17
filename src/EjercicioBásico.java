@@ -11,7 +11,7 @@ public class EjercicioBásico extends acm.program.ConsoleProgram{
 		println(fiestaArdillas(30,false));
 		println(fiestaArdillas(50,true));
 		println(fiestaArdillas(70,true));
-		println(fiestaArdillas(70,true));
+		
 	}
 
 

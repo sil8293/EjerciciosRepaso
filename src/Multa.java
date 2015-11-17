@@ -11,7 +11,7 @@ public class Multa extends acm.program.ConsoleProgram {
 		println(multaza(60,false));
 		println(multaza(66,false));
 		println(multaza(66,true));
-		println(fiestaArdillas(70,true));
+	
 	}
 	
 	private int multaza (int velocidad, boolean cumpleaños) {
