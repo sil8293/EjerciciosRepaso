@@ -1,4 +1,4 @@
-/*
+ /*
 	 * velocidad 60-0 el resultado es 0
 	 * 61 y 80 el resultado es 1
 	 * 81 o + el resultado es 2
